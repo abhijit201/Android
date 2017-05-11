@@ -37,7 +37,7 @@ public class Food_And_Drinks_Fragment extends Fragment implements AdapterView.On
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         ((MainActivity) getActivity())
-                .setActionBarTitle("Yourdikkkkha title");
+                .setActionBarTitle("Food and Drinks");
         return inflater.inflate(R.layout.fragment_food__and__drinks_, container, false);
     }
 

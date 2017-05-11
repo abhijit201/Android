@@ -28,7 +28,7 @@ public class Clinic_Fragment extends Fragment implements AdapterView.OnItemClick
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ((MainActivity) getActivity())
-                .setActionBarTitle("Your jdgstitle");
+                .setActionBarTitle("Clinic");
         return inflater.inflate(R.layout.list_view_fragment,container,false);
     }
 

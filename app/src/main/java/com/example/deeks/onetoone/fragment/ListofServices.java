@@ -38,7 +38,7 @@ public class ListofServices extends Fragment implements AdapterView.OnItemClickL
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         ((MainActivity) getActivity())
-                .setActionBarTitle("Your taaaaaaaitle");
+                .setActionBarTitle("Emergency");
         return inflater.inflate(R.layout.list_view_fragment, container, false);
     }
 
