@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_Categories"
+            android:icon="@drawable/ic_local_mall_black_24dp"
+            android:title="सर्व काही " />
+
+        <item
+            android:id="@+id/nav_Sponsers"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="प्रायोजक" />
+        <item
+            android:id="@+id/nav_Bussiness"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="आपला व्यवसाय जोडा" />
+
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="हा अॅप सामायिक करा" />
+
+        <item
+            android:id="@+id/nav_Rate"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="क्रमवारी सेट करा" />
+
+        <item
+            android:id="@+id/nav_Complaint"
+            android:icon="@drawable/ic_thumb_down_black_24dp"
+            android:title="तक्रार" />
+
+        <item
+            android:id="@+id/nav_Feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="अभिप्राय" />
+
+        <item
+            android:id="@+id/nav_Help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="मदत" />
+
+    </group>
+</menu>

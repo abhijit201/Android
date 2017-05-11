@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/download"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.deeks.onetoone.activity.Add_Your_Bussiness_Activity">
+
+
+    <ImageView
+        android:background="@drawable/ccd"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:drawableLeft="@drawable/plus_network"
+        android:id="@+id/edtxtBussinessName"
+        android:hint="Enter Nmae Of Bussiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:drawableLeft="@drawable/plus_network"
+        android:id="@+id/edtxtBussinessType"
+        android:hint="Enter Type Of Bussiness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:drawableLeft="@drawable/cellphone_android"
+        android:id="@+id/edtxtBussinessPhone"
+        android:hint=" Enter Phone No"
+        android:textColor="#0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+   <Button
+
+       android:text="Add"
+       android:textAllCaps="false"
+       android:background="@drawable/txtback"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+</LinearLayout>

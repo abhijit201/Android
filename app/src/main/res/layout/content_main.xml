@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.deeks.onetoone.activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+    <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:id="@+id/gridView1"-->
+        <!--android:numColumns="3"-->
+        <!--android:gravity="center"-->
+        <!--android:columnWidth="50dp"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent" >-->
+
+    <!--</GridView>-->
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <!--<GridView-->
+        <!--android:scrollbars="horizontal"-->
+        <!--android:id="@+id/gridView"-->
+        <!--android:numColumns="3"-->
+        <!--android:horizontalSpacing="2dp"-->
+        <!--android:verticalSpacing="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</GridView>-->
+
+</LinearLayout>
