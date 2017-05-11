@@ -23,15 +23,15 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
-            <include layout="@layout/fragment_ambulance_"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
+            <include layout="@layout/contact_list_item"/>
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"

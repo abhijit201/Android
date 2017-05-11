@@ -16,7 +16,7 @@ import android.widget.AdapterView;
 import android.widget.Toast;
 
 import com.example.deeks.onetoone.R;
-import com.example.deeks.onetoone.fragment.homeFragment;
+import com.example.deeks.onetoone.fragment.main_fragments.homeFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, AdapterView.OnItemClickListener {
