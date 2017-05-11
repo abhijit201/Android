@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.deeks.onetoone.R;
+import com.example.deeks.onetoone.activity.MainActivity;
 
 import java.util.ArrayList;
 
@@ -36,6 +37,8 @@ public class ListofServices extends Fragment implements AdapterView.OnItemClickL
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        ((MainActivity) getActivity())
+                .setActionBarTitle("Your taaaaaaaitle");
         return inflater.inflate(R.layout.list_view_fragment, container, false);
     }
 

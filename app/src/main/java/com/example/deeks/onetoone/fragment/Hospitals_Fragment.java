@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.deeks.onetoone.R;
+import com.example.deeks.onetoone.activity.MainActivity;
 
 import java.util.ArrayList;
 
@@ -33,6 +34,8 @@ public class Hospitals_Fragment extends Fragment implements AdapterView.OnItemCl
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        ((MainActivity) getActivity())
+                .setActionBarTitle("Your title");
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.list_view_fragment, container, false);
     }

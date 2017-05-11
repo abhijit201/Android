@@ -157,4 +157,7 @@ public class MainActivity extends AppCompatActivity
                 .replace(R.id.container, listofServices)
                 .commit();
     }
+    public void setActionBarTitle(String title) {
+        getSupportActionBar().setTitle(title);
+    }
 }

@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.deeks.onetoone.R;
+import com.example.deeks.onetoone.activity.MainActivity;
 
 import java.util.ArrayList;
 
@@ -26,6 +27,8 @@ public class Clinic_Fragment extends Fragment implements AdapterView.OnItemClick
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        ((MainActivity) getActivity())
+                .setActionBarTitle("Your jdgstitle");
         return inflater.inflate(R.layout.list_view_fragment,container,false);
     }
 

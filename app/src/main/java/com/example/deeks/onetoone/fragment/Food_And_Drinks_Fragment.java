@@ -14,6 +14,7 @@ import android.widget.ListView;
 import android.widget.Switch;
 
 import com.example.deeks.onetoone.R;
+import com.example.deeks.onetoone.activity.MainActivity;
 
 import java.util.ArrayList;
 
@@ -35,6 +36,8 @@ public class Food_And_Drinks_Fragment extends Fragment implements AdapterView.On
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        ((MainActivity) getActivity())
+                .setActionBarTitle("Yourdikkkksha title");
         return inflater.inflate(R.layout.fragment_food__and__drinks_, container, false);
     }
 
