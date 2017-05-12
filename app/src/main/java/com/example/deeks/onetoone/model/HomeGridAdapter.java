@@ -24,8 +24,9 @@ public class HomeGridAdapter extends BaseAdapter {
     }
 
     int[] Image = {
+
             R.drawable.foodndrink,
-            R.drawable.emerggg,
+            R.drawable.emerg,
             R.drawable.ayur,
             R.drawable.agencygas,
             R.drawable.earthmoves,
@@ -48,14 +49,14 @@ public class HomeGridAdapter extends BaseAdapter {
             R.drawable.banquet,
             R.drawable.political,
             R.drawable.real,
-            R.drawable.hospii,
+            R.drawable.hospital,
             R.drawable.kids,
             R.drawable.medical,
             R.drawable.education,
             R.drawable.agriculture,
             R.drawable.cc,
-            R.drawable.social,
-            R.drawable.consultant,
+            R.drawable.socialservice,
+            R.drawable.consult,
             R.drawable.services,
             R.drawable.beauty,
             R.drawable.hotels
@@ -63,7 +64,7 @@ public class HomeGridAdapter extends BaseAdapter {
     };
     String[] Services = {
             "अन्न आणि पेय",
-            "आणीबाणी",
+            "अत्यावशक सेवा",
             "आयुर्वेदिक",
             "एजन्सी",
             "खोदकाम",
@@ -71,9 +72,9 @@ public class HomeGridAdapter extends BaseAdapter {
             "घराची देखभाल",
             "चिकित्सालय",
             "दुकाने",
-            "दैनंदिन गरजा",
+            "दैनदिन",
             "नोकरी",
-            "पाणी",
+            "वॉटर फील्टर",
             "पेट्रोल",
             "फर्निचरचे दुकान",
             "फिटनेस",
@@ -82,20 +83,20 @@ public class HomeGridAdapter extends BaseAdapter {
             "भक्तीत्मक",
             "मद्य",
             "मनोरंजन",
-            "मीडिया",
-            "मेजवानी हॉल",
-            "राजकीय पक्ष",
+            "मिडिया",
+            "मेजवानी",
+            "राजकारण",
             "रिअल इस्टेट",
-            "रूग्णालय",
+            "दवाखाना",
             "लहान मुले",
             "वैद्यकीय सेवा",
             "शिक्षण",
-            "शेती",
+            "कृषी सेवा",
             "संगणक सेवा",
             "समाज सेवा",
-            "सल्लागार",
-            "सेवा",
-            "सौंदर्य काळजी",
+            "कन्सलटंन्ट",
+            "सर्विसेस",
+            "सौंदर्य",
             "हॉटेल"
 
     };
