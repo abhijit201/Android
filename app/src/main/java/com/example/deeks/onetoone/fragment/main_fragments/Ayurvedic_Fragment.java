@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.example.deeks.onetoone.R;
+import com.example.deeks.onetoone.activity.MainActivity;
 import com.example.deeks.onetoone.fragment.contacts_fragments.Ayurvedic_List_Fragment;
 
 import java.util.ArrayList;
@@ -26,11 +28,26 @@ public class Ayurvedic_Fragment extends Fragment implements AdapterView.OnItemCl
     ArrayAdapter<String> adapter;
 
 
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        ((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setHasOptionsMenu(true);
+    }
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
+        ((MainActivity)getActivity())
+                .setActionBarTitle("Ayurvedic");
+
+
         return inflater.inflate(R.layout.list_view_fragment,container,false);
+
+
     }
 
     @Override
