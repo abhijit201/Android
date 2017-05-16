@@ -25,48 +25,63 @@ public class HomeGridAdapter extends BaseAdapter {
 
     int[] Image = {
 
-            R.drawable.foodndrink,
             R.drawable.emerg,
-            R.drawable.ayur,
-            R.drawable.agencygas,
+            R.drawable.foodndrink,
+            R.drawable.ayurvedic,
+           // R.drawable.agencygas,
+            R.drawable.consult,
+            R.drawable.agricultureee,
             R.drawable.earthmoves,
-            R.drawable.government,
+            R.drawable.governmentoffices,
             R.drawable.housekeep,
             R.drawable.clinicsss,
-            R.drawable.shopjpeg,
+            R.drawable.hospital,
+            R.drawable.shops,
             R.drawable.dailyneeds,
             R.drawable.jobs,
-            R.drawable.water,
             R.drawable.patrol,
-            R.drawable.furnitureone,
+            R.drawable.showroom,
             R.drawable.fittt,
-            R.drawable.fas,
-            R.drawable.tt,
+            R.drawable.fashion,
+            R.drawable.tourntravel,
             R.drawable.devotional,
-            R.drawable.liquor,
+           // R.drawable.liquor,
             R.drawable.entre,
             R.drawable.media,
             R.drawable.banquet,
-            R.drawable.political,
-            R.drawable.real,
-            R.drawable.hospital,
+            R.drawable.vote,
+            R.drawable.realestate,
             R.drawable.kids,
             R.drawable.medical,
+            R.drawable.water,
             R.drawable.education,
-            R.drawable.agriculture,
-            R.drawable.cc,
+            R.drawable.computernit,
             R.drawable.socialservice,
-            R.drawable.consult,
             R.drawable.services,
             R.drawable.beauty,
-            R.drawable.hotels
+            R.drawable.hotelsnrestro
+//            R.drawable.weeklymarket,
+//            R.drawable.industrial
+//            R.drawable.park,
+//            R.drawable.devdarshan,
+//            R.drawable.picnicspot,
+//            R.drawable.bank
+          //  R.drawable.bhagyavedh,
+//            R.drawable.mobileservice,
+//            R.drawable.smallbusiness,
+//            R.drawable.brideorgroome,
+//            R.drawable.workshop,
+//            R.drawable.socialmedia,
+//            R.drawable.stampvendor,
+//            R.drawable.printingpress
 
     };
     String[] Services = {
+
             "अन्न आणि पेय",
             "अत्यावशक सेवा",
             "आयुर्वेदिक",
-            "एजन्सी",
+           // "एजन्सी",
             "खोदकाम",
             "गव्हरेन्मेंट सेवा",
             "घराची देखभाल",
@@ -76,12 +91,12 @@ public class HomeGridAdapter extends BaseAdapter {
             "नोकरी",
             "वॉटर फील्टर",
             "पेट्रोल",
-            "फर्निचरचे दुकान",
+            "सजावट",
             "फिटनेस",
             "फॅशन",
             "फेरफटका आणि प्रवास",
             "भक्तीत्मक",
-            "मद्य",
+           // "मद्य",
             "मनोरंजन",
             "मिडिया",
             "मेजवानी",
@@ -98,7 +113,20 @@ public class HomeGridAdapter extends BaseAdapter {
             "सर्विसेस",
             "सौंदर्य",
             "हॉटेल"
-
+//            "आठवडे बाझार",
+//            "इंड़स्ट्रीअल"
+//            "उद्यान",
+//            "देव दर्शन",
+//            "पर्यटनस्थळे",
+//            "बँक"
+////            "भाग्यवेध",
+////            "मोबाईल सर्विसेस",
+////            "लघु उद्योग",
+////            "वधु वर सूचक",
+////            "वर्क शॉप",
+////            "सोसीअल मेडिया ",
+////            "स्टॉम्प वेन्डर",
+////            "प्रिंटींग प्रेस"
     };
 
 
@@ -130,6 +158,8 @@ public class HomeGridAdapter extends BaseAdapter {
 
             Arrays.sort(Services);
             imageView.setImageResource(Image[i]);
+            //imageView.setImageResource(Image[i]);
+
             textView.setText(Services[i]);
      //   }
 //        }else {
