@@ -51,7 +51,7 @@ public class ListofServices extends Fragment implements AdapterView.OnItemClickL
 
     }
 
-    
+
 
 
 
